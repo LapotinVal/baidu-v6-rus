@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Оптимизация касанием</string>
+    <string name="onekeyBtn">Оптимизация касанием</string>
+    <string name="advancedBtn">^</string>
+    <string name="tipsTV">Занято памяти: 70%</string>
+    <string name="progressBar_padding">"         "</string>
+    <string name="pop_tips_normal_mode">Коснитесь приложения для закрытия</string>
+    <string name="pop_tips_lock_mode">Выберите приложения для блокировки</string>
+    <string name="pop_tips_lock_mode_head" />
+    <string name="pop_tips_lock_mode_end">" приложений блокировано"</string>
+    <string name="image_des">app_image</string>
+    <string name="tips_textview">TextView</string>
+    <string name="tips_50M">50M</string>
+    <string name="tips_100M">100M</string>
+    <string name="Used_memory">Занято памяти:</string>
+    <string name="edge_alpha">60</string>
+    <string name="tips_after_opti_head" />
+    <string name="tips_after_opti_end">MB освобождено</string>
+    <string name="loading">загрузка...</string>
+    <string name="tips_optimum_status">Очистка не требуется</string>
+    <string name="tips_system_clean_status">Только что очищено</string>
+    <string name="pop_tips_no_running_apps">Нет работающих приложений</string>
+</resources>
