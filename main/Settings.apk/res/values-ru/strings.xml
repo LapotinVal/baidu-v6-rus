@@ -2463,4 +2463,26 @@
     <string name="power_timer_end">Окончание загрузки</string>
     <string name="power_timer_settings_title">Параметры таймера</string>
     <string name="power_timer_settings_summary">Старт: %1$s, Стоп: %2$s</string>
+    <string name="alarm_align_title">Умное пробуждение</string>
+    <string name="alarm_align_summary">Сокращение времени пробуждения, и продлить время ожидания.</string>
+    <string name="align_alarm_time_range">Включить время</string>
+    <string name="alarm_align_interval_title">Слияние Interval</string>
+    <string name="alarm_align_interval_summary">Пробуждение в  %1$s будут объединены.</string>
+    <string name="alarm_align_when_screenoff_title">Включить когда экран выключен</string>
+    <string name="alarm_align_whitelist">Белый список</string>
+    <string name="alarm_align_whitelist_summary">Тревожные приложения будут предложил поставить в белый список</string>
+    <string name="alarm_align_time_range">Из %1$s в %2$s</string>
+    <string name="alarm_align_whole_day">Весь день</string>
+    <string name="alarm_align_introduce">"Эта функция будет объединить пробуждения, и сократить время пробуждения, тем самым продлевая системы в режиме ожидания. Некоторые сообщения из приложений будет отложено, и вы можете положить его в белый список.
+
+Вы хотите включить это?"</string>
+    <string name="alarm_align_disable_toast">Пожалуйста, включите смарт пробуждения.</string>
+    <string name="alarm_align_ok">Ок</string>
+    <string name="alarm_align_notification_title">Попробуйте смарт функции пробуждения!</string>
+    <string name="alarm_align_notification_content">Эта функция позволит сэкономить заряд.</string>
+    <string name="virtual_key_support_hide">Поддержка скрыть виртуальная клавиша</string>
+    <string name="virtual_key_change_position">Изменение виртуального ключевую позицию</string>
+    <string name="virtual_key_guide">Показать виртуальной клавиши после скольжения в нижней</string>
+    <string name="virtual_key_select_style">Выбрать стиль</string>
+    <string name="virtual_key_cancel">Отменить</string>
 </resources>
