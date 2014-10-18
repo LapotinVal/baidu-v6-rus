@@ -268,6 +268,12 @@ xiangce.baidu.com"</string>
     <string name="pref_camera_video_duration_entry_10">10 мин</string>
     <string name="pref_camera_video_duration_entry_30">30 мин</string>
     <string name="pref_camera_video_duration_entry_60">Без ограничений</string>
+    <string name="remember_location_title">Запомнить место съёмки?</string>
+    <string name="remember_location_prompt">"Отметить ваши фотографий и видео с места, где они были сделаны.
+
+Другие приложения могут получать эту информацию вместе с сохраненными изображениями."</string>
+    <string name="remember_location_no">Нет, спасибо</string>
+    <string name="remember_location_yes">Да</string>
     <string name="switch_to_search_label">Поиск</string>
     <string name="setting">Настройки</string>
     <string name="introduction">Сделайте фото обложки</string>
