@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/menu_local_item_remove" android:visible="false" android:title="Очистить историю закачанного" />
-    <item android:id="@id/menu_download_item_resume" android:visible="false" android:title="Продолжить" />
-    <item android:id="@id/menu_download_item_pause" android:visible="false" android:title="Пауза" />
-    <item android:id="@id/menu_download_item_moving" android:visible="false" android:title="@string/music_player_add_other_list" />
-    <item android:id="@id/menu_more_item_bulk_parse_id3" android:visible="false" android:title="Коррекция искажений" />
-</menu>

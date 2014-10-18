@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/item_track_name" android:title="По названию" />
-    <item android:id="@id/item_artist_name" android:title="По исполнителю" />
-    <item android:id="@id/item_album_name" android:title="По альбому" />
-    <item android:id="@id/item_date_added" android:title="По времени" />
-    <item android:id="@id/item_directory" android:title="По каталогу" />
-</menu>
