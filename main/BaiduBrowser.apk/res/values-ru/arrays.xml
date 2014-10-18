@@ -1,507 +1,931 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string-array name="webkit_ua">
-        <item>Mobile UA</item>
-        <item>PC UA</item>
-        <item>iPhone UA</item>
-    </string-array>
-    <string-array name="read_ahead">
-        <item>Выключено</item>
-        <item>Только Wap</item>
-        <item>Все</item>
-    </string-array>
-    <string-array name="auto_flash_switch">
-        <item>Автозапуск</item>
-        <item>Тап для запуска</item>
-    </string-array>
-    <string-array name="pref_shrink">
-        <item>Под экран</item>
-        <item>Масштаб</item>
-    </string-array>
-    <string-array name="pref_pic_quality_entries">
-        <item>Низкое качество</item>
-        <item>Стандартное качество</item>
-        <item>Высокое качество</item>
-    </string-array>
-    <string-array name="pref_volume_mode_entries">
-        <item>Отключено</item>
-        <item>Перемотка экрана</item>
-        <item>Переключение окон</item>
-    </string-array>
-    <string-array name="pre_website">
-        <item>Яндекс</item>
-        <item>http://yandex.ru</item>
-        <item>Vkontakte</item>
-        <item>http://vk.com</item>
-        <item>Одноклассники</item>
-        <item>http://m.odnoklassniki.ru/</item>
-        <item>Форум 4pda</item>
-        <item>http://4pda.ru/forum/index.php</item>
-        <item>Google</item>
-        <item>http://google.ru/</item>
-        <item>YouTube</item>
-        <item>http://youtube.com</item>
-    </string-array>
-    <string-array name="sys_waiting_tips">
-        <item>Нажмите ★ для добавления закладки</item>
-    </string-array>
-    <string-array name="zeus_waiting_tips">
-        <item>Нажмите ★ для добавления закладки</item>
-        <item>Долгий тап для копирования и поиска текста</item>
-        <item>Тап на видео для перехода в полноэкранный режим</item>
-    </string-array>
-    <string-array name="manage_space_titles">
-        <item>Кэш страниц</item>
-        <item>История поиска</item>
-        <item>Cookies</item>
-        <item>Формы и пароли</item>
-    </string-array>
-    <string-array name="manage_space_tips">
-        <item>Очистка локального кэша</item>
-        <item>Очистка запросов поиска</item>
-        <item>Очистка Cookies</item>
-        <item>Очистка сохранённых паролей</item>
-    </string-array>
-    <string-array name="pref_textsize_setting">
-        <item>Маленький</item>
-        <item>Средний</item>
-        <item>Большой</item>
-    </string-array>
-    <string-array name="bookmarks_title">
-        <item>Форум 4pda</item>
-        <item>Baidu Explorer</item>
-    </string-array>
-    <string-array name="bookmarks_url">
-        <item>http://4pda.ru/forum/index.php</item>
-        <item>http://4pda.ru/forum/index.php?showtopic=375254</item>
-    </string-array>
-    <string-array name="favicon_host_list">
-        <item>twitter</item>
-        <item>wikipedia</item>
-        <item>yahoo</item>
-        <item>youtube</item>
-        <item>facebook</item>
-        <item>torrentz</item>
-        <item>mercadolivre</item>
-        <item>stackoverflow</item>
-        <item>rediff</item>
-        <item>quikr</item>
-        <item>letras.mus</item>
-        <item>olx</item>
-        <item>ndtv</item>
-        <item>kboing</item>
-        <item>naukri</item>
-        <item>itau</item>
-        <item>irctc.co</item>
-        <item>ig</item>
-        <item>indiatimes</item>
-        <item>in</item>
-        <item>globoesporte.globo</item>
-        <item>imdb</item>
-        <item>icicibank</item>
-        <item>buscape</item>
-        <item>hdfcbank</item>
-        <item>amazon</item>
-        <item>flipkart</item>
-        <item>espncricinfo</item>
-        <item>abril</item>
-        <item>ebay</item>
-        <item>plus.google</item>
-        <item>msn</item>
-        <item>4shared</item>
-        <item>palcomp3</item>
-        <item>babylon</item>
-        <item>terra</item>
-        <item>bankmandiri.co</item>
-        <item>vagalume</item>
-        <item>berniaga</item>
-        <item>blogspot</item>
-        <item>detik</item>
-        <item>ganool</item>
-        <item>mail.yahoo</item>
-        <item>goal</item>
-        <item>jogos360.uol</item>
-        <item>indowebster</item>
-        <item>kapanlagi</item>
-        <item>kaskus.co</item>
-        <item>aol</item>
-        <item>kompasiana</item>
-        <item>apple</item>
-        <item>lintas</item>
-        <item>bing</item>
-        <item>okezone</item>
-        <item>tokobagus</item>
-        <item>cnn</item>
-        <item>tribunnews</item>
-        <item>craigslist</item>
-        <item>viva.co</item>
-        <item>flickr</item>
-        <item>huffingtonpost</item>
-        <item>klikbca</item>
-        <item>linkedin</item>
-        <item>live</item>
-        <item>paypal</item>
-        <item>pinterest</item>
-        <item>tumblr</item>
-        <item>walmart</item>
-        <item>weather</item>
-        <item>mail.google</item>
-        <item>auctions.yahoo.co</item>
-        <item>gyao.yahoo.co</item>
-        <item>yahoo-mbga</item>
-        <item>nhk.or</item>
-        <item>nikkei</item>
-        <item>sankei.msn</item>
-        <item>ahram</item>
-        <item>akhbarak</item>
-        <item>almasryalyoum</item>
-        <item>arabseed</item>
-        <item>cima4u</item>
-        <item>egyup</item>
-        <item>new.el-ahly</item>
-        <item>new.elfagr</item>
-        <item>sptechs</item>
-        <item>dailynews.co</item>
-        <item>matichon.co</item>
-        <item>nowgoal</item>
-        <item>weloveshopping</item>
-        <item>elwatannews</item>
-        <item>fatakat</item>
-        <item>friv</item>
-        <item>masrawy</item>
-        <item>mawaly</item>
-        <item>melody4arab</item>
-        <item>myegy</item>
-        <item>mazika2day</item>
-        <item>sm3na</item>
-        <item>portal.moe.gov</item>
-        <item>mp3</item>
-        <item>mtv</item>
-        <item>go</item>
-        <item>ask</item>
-        <item>accounts.google</item>
-        <item>login.live</item>
-        <item>video.pbs</item>
-        <item>translate.google</item>
-        <item>billboard</item>
-        <item>bebo</item>
-        <item>bigpondmusic</item>
-        <item>cbsnews</item>
-        <item>cnet</item>
-        <item>engadget</item>
-        <item>WordPress</item>
-        <item>hulu</item>
-        <item>metrolyrics</item>
-        <item>nytimes</item>
-        <item>reuters</item>
-        <item>slashdot</item>
-        <item>thinkdigit</item>
-        <item>usatoday</item>
-        <item>vimeo</item>
-        <item>zdnet</item>
-        <item>americanas</item>
-        <item>mail.aol</item>
-        <item>bestbuy</item>
-        <item>blogdetik</item>
-        <item>buy</item>
-        <item>chip.co</item>
-        <item>cifraclub</item>
-        <item>clickjogos.uol</item>
-        <item>dafiti</item>
-        <item>estadao</item>
-        <item>folha</item>
-        <item>g1</item>
-        <item>gamerdecelular</item>
-        <item>groupon</item>
-        <item>habbo</item>
-        <item>jogatina</item>
-        <item>girlsgogames</item>
-        <item>magazineluiza</item>
-        <item>netshoes</item>
-        <item>ojogos</item>
-        <item>orkut</item>
-        <item>papajogos</item>
-        <item>parperfeito</item>
-        <item>peixeurbano</item>
-        <item>pontofrio</item>
-        <item>r7</item>
-        <item>email.r7</item>
-        <item>som13</item>
-        <item>submarino</item>
-        <item>techarena</item>
-        <item>mail.terra</item>
-        <item>uol</item>
-        <item>videolog</item>
-        <item>1mobile</item>
-        <item>o2cinemas</item>
-        <item>analyrics</item>
-        <item>beemp3</item>
-        <item>bhinneka</item>
-        <item>bursalagu</item>
-        <item>friendster</item>
-        <item>getjar</item>
-        <item>grogol</item>
-        <item>gudanglagu</item>
-        <item>mp3raid</item>
-        <item>musikane</item>
-        <item>21cineplex</item>
-        <item>omegle</item>
-        <item>peperonity</item>
-        <item>softonic</item>
-        <item>stafaband</item>
-        <item>streetdirectory.co</item>
-        <item>tokopedia</item>
-        <item>tubidy</item>
-        <item>vuclip</item>
-        <item>zedge</item>
-    </string-array>
-    <string-array name="pref_form_save_entries">
-        <item>Отключить</item>
-        <item>Предлагать</item>
-        <item>Сохранять</item>
-    </string-array>
-    <string-array name="pref_form_save_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="pref_explore_mode_entries">
-        <item>Zoom composition</item>
-        <item>Simple composition</item>
-    </string-array>
-    <string-array name="pref_explore_mode_values">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="webkit_ua_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="read_ahead_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="auto_flash_switch_values">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="pref_shrink_values">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="pref_pic_quality_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="pref_volume_mode_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="pref_textsize_setting_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="country_code">
-        <item>id</item>
-        <item>br</item>
-        <item>gb</item>
-        <item>jp</item>
-        <item>kr</item>
-        <item>sp</item>
-        <item>de</item>
-        <item>fr</item>
-    </string-array>
-    <string-array name="language_lable">
-        <item>Русский</item>
-        <item>Русский</item>
-        <item>Русский</item>
-        <item>Русский</item>
-        <item>Русский</item>
-        <item>Русский</item>
-        <item>Русский</item>
-        <item>Русский</item>
-    </string-array>
-    <string-array name="server_hk_country_code">
-        <item>id</item>
-        <item>th</item>
-        <item>my</item>
-        <item>sg</item>
-        <item>vn</item>
-        <item>ph</item>
-        <item>kh</item>
-        <item>la</item>
-        <item>mm</item>
-        <item>bn</item>
-        <item>tl</item>
-        <item>jp</item>
-        <item>kr</item>
-        <item>kp</item>
-        <item>mn</item>
-        <item>au</item>
-        <item>nz</item>
-        <item>in</item>
-        <item>pk</item>
-        <item>bd</item>
-        <item>np</item>
-        <item>lk</item>
-        <item>bt</item>
-        <item>af</item>
-        <item>mv</item>
-    </string-array>
-    <string-array name="server_hk_language_code">
-        <item>in</item>
-        <item>th</item>
-        <item>ms</item>
-        <item>vi</item>
-        <item>ja</item>
-        <item>ko</item>
-        <item>hi</item>
-    </string-array>
-    <string-array name="sug_common">
-        <item>m.facebook.com</item>
-        <item>www.google.com</item>
-        <item>m.youtube.com</item>
-        <item>www.wikipedia.org</item>
-        <item>www.yahoo.com</item>
-        <item>mobile.msn.com</item>
-        <item>www.tumblr.com</item>
-        <item>m.imdb.com</item>
-        <item>www.blogspot.com</item>
-        <item>www.linkedin.com</item>
-        <item>www.ebay.com</item>
-        <item>mobile.twitter.com</item>
-        <item>stackoverflow.com</item>
-        <item>www.live.com</item>
-        <item>wordpress.com</item>
-        <item>www.microsoft.com</item>
-        <item>m.bing.com</item>
-        <item>www.amazon.com</item>
-        <item>www.babylon.com</item>
-        <item>www.paypal.com</item>
-        <item>www.adobe.com</item>
-        <item>www.apple.com</item>
-        <item>m.pinterest.com</item>
-        <item>www.flickr.com</item>
-        <item>www.ask.com</item>
-        <item>www.blogger.com</item>
-        <item>thepiratebay.se</item>
-        <item>m.livejasmin.com</item>
-        <item>t.co</item>
-        <item>www.conduit.com</item>
-        <item>mobile.xhamster.com</item>
-        <item>instagram.com</item>
-        <item>www.avg.com</item>
-        <item>www.4shared.com</item>
-    </string-array>
-    <string-array name="sug_self">
-        <item>www.craigslist.org</item>
-        <item>go.com</item>
-        <item>m.aol.com</item>
-        <item>www.netflix.com</item>
-        <item>www.cnn.com</item>
-        <item>www.huffingtonpost.com</item>
-        <item>www.espn.go.com</item>
-        <item>m.weather.com</item>
-        <item>www.bankofamerica.com</item>
-        <item>mobilebanking.chase.com</item>
-        <item>www.about.com</item>
-        <item>m.wellsfargo.com</item>
-        <item>www.comcast.net</item>
-        <item>mobile.walmart.com</item>
-        <item>www.mywebsearch.com</item>
-        <item>mobile.nytimes.com</item>
-        <item>imgur.com</item>
-        <item>www.foxnews.com</item>
-        <item>m.yelp.com</item>
-        <item>www.ehow.com</item>
-        <item>www.nbcnews.com</item>
-        <item>www.zedo.com</item>
-        <item>www.etsy.com</item>
-        <item>www.hulu.com</item>
-        <item>m.cnet.com</item>
-        <item>www.pandora.com</item>
-        <item>www.reddit.com</item>
-        <item>www.outbrain.com</item>
-        <item>www.optmd.com</item>
-        <item>m.target.com</item>
-        <item>www.pch.com</item>
-        <item>www.indeed.com</item>
-        <item>www.answers.com</item>
-        <item>www.zillow.com</item>
-        <item>m.usps.com</item>
-        <item>m.godaddy.com</item>
-        <item>m.bestbuy.com</item>
-        <item>m.ups.com</item>
-        <item>www.att.com</item>
-        <item>www.reference.com</item>
-        <item>www.irs.gov</item>
-        <item>www.groupon.com</item>
-        <item>www.directrev.com</item>
-        <item>www.deviantart.com</item>
-        <item>m.intuit.com</item>
-        <item>www.aweber.com</item>
-        <item>www.wikia.com</item>
-        <item>www.capitalone.com</item>
-        <item>www.bbc.co.uk</item>
-        <item>www.washingtonpost.com</item>
-        <item>www.pof.com</item>
-        <item>www.homedepot.com</item>
-        <item>www.usatoday.com</item>
-        <item>www.drudgereport.com</item>
-        <item>www.shopathome.com</item>
-        <item>www.fedex.com</item>
-        <item>www.verizonwireless.com</item>
-        <item>www.dailymail.co.uk</item>
-        <item>www.match.com</item>
-        <item>www.forbes.com</item>
-        <item>www.vimeo.com</item>
-        <item>www.google.com.au</item>
-        <item>www.ebay.com.au</item>
-        <item>www.news.com.au</item>
-        <item>www.commbank.com.au</item>
-        <item>www.smh.com.au</item>
-        <item>www.gumtree.com.au</item>
-        <item>www.blogspot.com.au</item>
-        <item>www.ninemsn.com.au</item>
-        <item>www.westpac.com.au</item>
-        <item>www.anz.com</item>
-        <item>www.national.com.au</item>
-        <item>www.realestate.com.au</item>
-        <item>www.theage.com.au</item>
-        <item>www.abc.net.au</item>
-        <item>www.bom.gov.au</item>
-        <item>www.seek.com.au</item>
-        <item>www.vic.gov.au</item>
-        <item>www.whirlpool.net.au</item>
-        <item>www.domain.com.au</item>
-        <item>www.nsw.gov.au</item>
-        <item>www.wordpress.org</item>
-        <item>www.google.ca</item>
-        <item>www.kijiji.ca</item>
-        <item>www.gc.ca</item>
-        <item>www.amazon.ca</item>
-        <item>www.msn.ca</item>
-        <item>www.tdcanadatrust.com</item>
-        <item>www.craigslist.ca</item>
-        <item>www.ebay.ca</item>
-        <item>www.td.com</item>
-        <item>www.royalbank.com</item>
-        <item>www.theweathernetwork.com</item>
-        <item>www.cbc.ca</item>
-        <item>www.nhl.com</item>
-        <item>www.rbcroyalbank.com</item>
-        <item>www.bmo.com</item>
-        <item>trophymanager.com</item>
-        <item>tubidy.mobi</item>
-        <item>cnnmobile.com</item>
-        <item>m.9gag.com</item>
-        <item>mp3.com</item>
-        <item>m.espncricinfo.com</item>
-        <item>m.moneycontrol.com</item>
-    </string-array>
+<string-array name="pref_webkit_ua">
+<item>Android</item>
+<item>PC</item>
+<item>iPhone</item>
+</string-array>
+<string-array name="pref_read_ahead">
+<item>Запрещается использование pre-reading</item>
+<item>WAP</item>
+<item>Предварительно читать полностью</item>
+</string-array>
+<string-array name="pref_auto_flash_switch">
+<item>Автоматической трансляции Flash.</item>
+<item>Нажмите кнопку играть во Flash.</item>
+</string-array>
+<string-array name="pref_safecheck">
+<item>Полная подсказка.</item>
+<item>Иногда подсказывать</item>
+<item>Минимальный</item>
+</string-array>
+<string-array name="pref_shrink">
+<item>Адаптация к экрану.</item>
+<item>Норм показывает</item>
+</string-array>
+<string-array name="pref_pic_quality_entries">
+<item>Низкая цвет</item>
+<item>Стандарты</item>
+<item>HD</item>
+</string-array>
+<string-array name="pref_volume_mode_entries">
+<item>Звук</item>
+<item>Прокрутка кнопками</item>
+<item>Переключение вкладок</item>
+</string-array>
+<string-array name="pref_textsize_setting">
+<item>Маленький</item>
+<item>Средний</item>
+<item>Крупный</item>
+</string-array>
+<string-array name="pref_notification_setting">
+<item>Видео обновлений</item>
+<item>Роман обновления.</item>
+</string-array>
+<string-array name="manage_space_titles">
+<item>Чтобы очистить кэшированные данные</item>
+<item>Чтобы очистить историю поиска</item>
+<item>Удалить Куки.</item>
+<item>Чтобы удалить один пароль.</item>
+</string-array>
+<string-array name="manage_space_tips">
+<item>Удалить хранящиеся в локальном кэше, данных на странице</item>
+<item>Очистить браузер поле поиска введите записей</item>
+<item>Очистить все Cookies, данные</item>
+<item>Очистить все сохраненные лист данных паролем</item>
+</string-array>
+<string-array name="local_website">
+<item>Новая волна</item>
+<item>http://sina.cn/</item>
+<item>Феникс</item>
+<item>http://i.ifeng.com/</item>
+<item>Поиск Лиса.</item>
+<item>http://m.sohu.com/</item>
+<item>Бесплатный Информационный бюллетень</item>
+<item>http://3g.qq.com/</item>
+<item>Википедия</item>
+<item>http://m.baidu.com/</item>
+<item>EBay</item>
+<item>http://m.taobao.com/</item>
+<item>Web easy</item>
+<item>http://3g.163.com/</item>
+<item>YouTube</item>
+<item>http://3g.youku.com/</item>
+<item>Car home.</item>
+<item>http://m.autohome.com.cn/</item>
+<item>3G门户</item>
+<item>http://3g.cn/</item>
+<item>Глобальная сеть</item>
+<item>http://wap.huanqiu.com</item>
+<item>Новая волна спорт</item>
+<item>http://sports.sina.cn</item>
+<item>Китайский Новый чистый</item>
+<item>http://m.news.cn/</item>
+<item>Новая волна в НБА.</item>
+<item>http://nba.sina.cn</item>
+<item>Восточные богатства.</item>
+<item>http://wap.eastmoney.com</item>
+<item>Народная сеть</item>
+<item>http://wap.people.com.cn</item>
+<item>YouTube</item>
+<item>http://3g.youku.com/</item>
+<item>Китай военных</item>
+<item>http://3g.china.com/mili/</item>
+<item>Центральное телевидение</item>
+<item>http://wap.cctv.com</item>
+<item>Утюг</item>
+<item>http://m.tiexue.net/3g/</item>
+<item>Beijing East</item>
+<item>http://m.jd.com/</item>
+<item>Люблю Нечетные искусства</item>
+<item>http://m.iqiyi.com/</item>
+<item>58同城</item>
+<item>http://wap.58.com</item>
+<item>Где</item>
+<item>http://touch.qunar.com/</item>
+<item>Картофель</item>
+<item>http://m.tudou.com</item>
+<item>Cool dog.</item>
+<item>http://m.kugou.com/</item>
+<item>Сук</item>
+<item>http://wap.ganji.cn/</item>
+<item>Роман чтении сети</item>
+<item>http://t.xs.cn/</item>
+<item>Моей жизни.</item>
+<item>http://3g.tianya.cn</item>
+<item>Желаем, чтобы поиск романа.</item>
+<item>http://book.easou.com/</item>
+<item>Музыка аудио</item>
+<item>http://m.letv.com/</item>
+<item>Китай погода в сеть</item>
+<item>http://wap.weather.com.cn/wap/</item>
+<item>Красный лидер</item>
+<item>http://wap.hongxiu.com/</item>
+<item>QQ音乐</item>
+<item>http://music.3g.qq.com/</item>
+<item>Craigslist</item>
+<item>http://wap.baixing.com</item>
+<item>QQ空间</item>
+<item>http://z.qq.com</item>
+<item>Мик-сайте.</item>
+<item>http://m.xiaomi.com/</item>
+<item>RadioShack.</item>
+<item>http://3g.zol.com.cn/</item>
+<item>Google music.</item>
+<item>http://music.baidu.com/</item>
+<item>Кот напал</item>
+<item>http://3g.mop.com</item>
+<item>163邮箱</item>
+<item>http://smart.mail.163.com/?dv=smart</item>
+<item>Люблю карты, прокат</item>
+<item>http://wap.xcar.com.cn/</item>
+<item>Андрей рынках</item>
+<item>http://360.apk.hiapk.com/</item>
+<item>QQ邮箱</item>
+<item>http://w.mail.qq.com/</item>
+<item>Лотереи web</item>
+<item>http://wap.zhcw.com/</item>
+<item>Когда</item>
+<item>http://m.dangdang.com/</item>
+<item>Каждый день музыка.</item>
+<item>http://yy.ttpod.com/</item>
+<item>Финансовый мир.</item>
+<item>http://m.jrj.com.cn</item>
+<item>Мне сказать в суде</item>
+<item>http://m.xxsy.net/</item>
+<item>И связи</item>
+<item>http://wap.hexun.com</item>
+<item>Романс роман.</item>
+<item>http://w.xs8.cn/</item>
+<item>Любовь</item>
+<item>http://m.zhenai.com/</item>
+<item>126邮箱</item>
+<item>http://smart.mail.126.com/?dv=smart</item>
+<item>Лилии сети</item>
+<item>http://3g.baihe.com</item>
+<item>Единственными продуктами</item>
+<item>http://m.vipshop.com/</item>
+<item>Лотерея</item>
+<item>http://m.lecai.com/</item>
+<item>См. веб -</item>
+<item>http://wap.kanshu.com/</item>
+<item>Поиск Фокс видео</item>
+<item>http://m.tv.sohu.com/</item>
+<item>Стыдно Википедии</item>
+<item>http://m.qiushibaike.com/</item>
+<item>Rage комиксов</item>
+<item>http://m.baozoumanhua.com/</item>
+<item>Google map</item>
+<item>http://map.baidu.com/</item>
+<item>Google video</item>
+<item>http://m.baidu.com/video</item>
+<item>Военный Амир</item>
+<item>http://wap.miercn.com/</item>
+<item>Новая волна видео</item>
+<item>http://video.sina.cn/</item>
+<item>Happy крендель.</item>
+<item>http://m.kl688.com/</item>
+<item>Онлайн-перевод</item>
+<item>http://fanyi.baidu.com/</item>
+<item>Jin Jiang литературы.</item>
+<item>http://m.jjwxc.com/</item>
+<item>Fedex 100</item>
+<item>http://wap.kuaidi100.com/</item>
+<item>Бесплатно роман</item>
+<item>http://m.hao123.com/a/xiaoshuo</item>
+<item>Приложения обмениваются</item>
+<item>http://m.appchina.com</item>
+<item>Google пособие.</item>
+<item>http://tieba.baidu.com/</item>
+<item>Error</item>
+<item>http://wapmail.10086.cn/</item>
+<item>8684公交</item>
+<item>http://m.8684.cn/</item>
+<item>Google знает.</item>
+<item>http://wapiknow.baidu.com/</item>
+<item>На рынке Чили</item>
+<item>http://m.anzhi.com</item>
+<item>Регулярное использование телефона.</item>
+<item>http://m.hao123.com/n/v/dianhua</item>
+<item>Ссылка новости.</item>
+<item>http://m.cankaoxiaoxi.com/</item>
+<item>Facebook</item>
+<item>http://m.renren.com/</item>
+<item>hao123彩票</item>
+<item>http://m.hao123.com/n/v/caipiao</item>
+<item>PPTV</item>
+<item>http://m.pptv.com/</item>
+<item>Википедия альбом.</item>
+<item>http://xiangce.baidu.com/m</item>
+<item>Отправной точкой</item>
+<item>http://qidian.cn/</item>
+<item>Флаг</item>
+<item>http://m.shuqiread.com/</item>
+<item>Яблоневый сад.</item>
+<item>http://m.app111.com</item>
+<item>Измельчить Рю-стрит.</item>
+<item>http://m.mogujie.com/</item>
+<item>Вместе, США приоритетных продуктов</item>
+<item>http://m.jumei.com/</item>
+<item>Pacific автомобильной сети</item>
+<item>http://m.pcauto.com.cn/</item>
+<item>Match.com.</item>
+<item>http://3g.jiayuan.com/</item>
+<item>Красиво сказал</item>
+<item>http://wap.meilishuo.com/</item>
+<item>Стратегические сети</item>
+<item>http://wap.chinaiiss.com/</item>
+<item>Снасти</item>
+<item>http://m.hupu.com/</item>
+<item>Время web</item>
+<item>http://m.mtime.com/</item>
+<item>Бесплатное видео</item>
+<item>http://3g.v.qq.com</item>
+<item>Военно-frontier</item>
+<item>http://m.qianyan001.com/</item>
+<item>Отправной точкой китайской</item>
+<item>http://m.qidian.com</item>
+<item>Китай news network</item>
+<item>http://m.chinanews.com/</item>
+<item>Австралийского сайта</item>
+<item>http://wap.okooo.com/</item>
+<item>1号店</item>
+<item>http://m.yihaodian.com/</item>
+<item>1518姓名测试</item>
+<item>http://m.1518.com/</item>
+<item>500彩票网</item>
+<item>http://3g.500.com/</item>
+<item>Wikipedia-туризм</item>
+<item>http://lvyou.baidu.com/</item>
+<item>Салон швейцарских сети</item>
+<item>http://wap.rayli.com.cn/</item>
+<item>Любой клиент</item>
+<item>http://m.vancl.com/</item>
+<item>The wall street journal</item>
+<item>http://m.cn.wsj.com/</item>
+<item>ID поиск</item>
+<item>http://wap.ip138.com/id.html</item>
+<item>Холодная шутка.</item>
+<item>http://m.lengxiaohua.com/</item>
+<item>Как здорово город.</item>
+<item>http://xs.duoku.com/xs/</item>
+<item>Опыт Google</item>
+<item>http://jingyan.baidu.com/m/</item>
+<item>Новый твит</item>
+<item>http://weibo.cn/</item>
+<item>Есть о чем беспокоиться</item>
+<item>http://m.51job.com/</item>
+<item>Андрей сети</item>
+<item>http://m.hiapk.com/</item>
+<item>Телефон веб-лотерея</item>
+<item>http://zucp.com/</item>
+<item>Живот web</item>
+<item>http://m.pengfu.com/</item>
+<item>Миссия США</item>
+<item>http://i.meituan.com</item>
+<item>Reuters китайские сети</item>
+<item>http://cn.mobile.reuters.com/</item>
+<item>Телефон сеть фильм</item>
+<item>http://m1905.cn/</item>
+<item>Горизонтальные и вертикальные сети</item>
+<item>http://wap.zongheng.com/</item>
+<item>Рука сети</item>
+<item>http://m.lashou.com/</item>
+<item>39健康网</item>
+<item>http://3g.39.net/</item>
+<item>Amazon</item>
+<item>http://www.amazon.cn/gp/aw/</item>
+<item>17k小说</item>
+<item>http://wap.17kss.com/</item>
+<item>Сумка веб -</item>
+<item>http://m.bookbao.com/</item>
+<item>Номеру телефона, найти</item>
+<item>http://wap.ip138.com/sim.html</item>
+<item>Мечта BA Салли</item>
+<item>http://t.moonbasa.com/</item>
+<item>3G图片</item>
+<item>http://latu.3g.cn/</item>
+<item>Bee Happy</item>
+<item>http://m.lefeng.com/</item>
+<item>91助手</item>
+<item>http://d.91.com/</item>
+<item>Ценные бумаги звезда</item>
+<item>http://m.stockstar.com/</item>
+<item>56视频</item>
+<item>http://3g.56.com/</item>
+<item>Миллион в лотерею.</item>
+<item>http://3g.wcai8.com/</item>
+<item>273二手交易</item>
+<item>http://m.273.cn/</item>
+<item>China mobile</item>
+<item>http://wap.10086.cn/</item>
+<item>Круто моя музыка.</item>
+<item>http://m.kuwo.cn</item>
+<item>Носил повестки дня</item>
+<item>http://m.ctrip.com/</item>
+<item>Онлайн авторынок.</item>
+<item>http://m.cheshi.com/</item>
+<item>Первые
+ созвездия.</item>
+<item>http://3g.d1xz.net/</item>
+<item>3G体育</item>
+<item>http://sports.3g.cn/</item>
+<item>Pat</item>
+<item>http://m.paipai.com</item>
+<item>Intellilink найма</item>
+<item>http://wap.zhaopin.com/</item>
+<item>Новая волна женщин</item>
+<item>http://eladies.sina.cn/</item>
+<item>Бразильской армии.</item>
+<item>http://m.xilu.com/</item>
+<item>Горох клип</item>
+<item>http://m.wandoujia.com/</item>
+<item>Номер поиска.</item>
+<item>http://m.soufun.com/</item>
+<item>Bean</item>
+<item>http://m.douban.com/</item>
+<item>Хорошая музыка купить</item>
+<item>http://m.okbuy.com/</item>
+<item>Поиск собаки музыка</item>
+<item>http://m.sogou.com/music/index.jsp</item>
+<item>Новая волна экономике и финансам</item>
+<item>http://finance.sina.cn/</item>
+<item>Лотерея форум</item>
+<item>http://wap.17500.cn/</item>
+<item>Соединенные morning post</item>
+<item>http://www.zaobao.com/</item>
+<item>Довольно легко приобрести</item>
+<item>http://m.suning.com/</item>
+<item>iphone中文网</item>
+<item>http://iphone.tgbus.com/</item>
+<item>Кэти, сотовый телефон сеть</item>
+<item>http://3g.kdnet.net/</item>
+<item>Девять плавательный игры.</item>
+<item>http://wap.9game.cn/</item>
+<item>3G娱乐</item>
+<item>http://ent.3g.cn/</item>
+<item>Baby soft.</item>
+<item>http://baoruan.com</item>
+<item>Продажа детские</item>
+<item>http://www.mmb.cn/</item>
+<item>XDACN论坛</item>
+<item>http://bbs.xda.cn/forum.php</item>
+<item>Новая волна, e-mail</item>
+<item>http://mail.sina.com.cn/wapmail/logon.php?vt=4</item>
+<item>Еда</item>
+<item>http://wap.meishichina.com</item>
+<item>Флеш</item>
+<item>http://m.hexin.cn/</item>
+<item>Доминиканская музыка.</item>
+<item>http://wap.duomi.com/</item>
+<item>Школа вождения.</item>
+<item>http://m.jxedt.com/</item>
+<item>Великая мудрость</item>
+<item>http://wapgw.cn/</item>
+<item>PPS</item>
+<item>http://m.pps.tv/</item>
+<item>Железного друга.</item>
+<item>http://yushouqi.m.tieyou.com/</item>
+<item>Facebook</item>
+<item>http://wap.kaixin001.com/</item>
+<item>Неделю общественное понимание мечты.</item>
+<item>http://jiemengmobi.duapp.com/</item>
+<item>Пузырь сети</item>
+<item>http://m.pcpop.com/</item>
+<item>Андрей сети</item>
+<item>http://a.155.cn/</item>
+<item>Тот же процесс сети</item>
+<item>http://wap.17u.cn/</item>
+<item>На рынке программного обеспечения для безопасности</item>
+<item>http://m.3gyu.com/</item>
+<item>Телевизор кота</item>
+<item>http://m.tvmao.com/</item>
+<item>China Telecom</item>
+<item>http://wap.ct10000.com/</item>
+<item>China Unicom</item>
+<item>http://mob.10010.com/</item>
+<item>Интер-edge-форум</item>
+<item>http://bbs.gfan.com/m/</item>
+<item>Билет на поезд web</item>
+<item>http://huochepiao.baidu.com/</item>
+<item>12306</item>
+<item>http://www.12306.cn/</item>
+<item>it168</item>
+<item>http://m.it168.com/</item>
+<item>Легкий сети автомобиля</item>
+<item>http://wap.bitauto.com/</item>
+<item>N多市场</item>
+<item>http://m.nduoa.com/</item>
+<item>Речная сеть</item>
+<item>http://3g.dahe.cn/</item>
+<item>Новая волна чтении.</item>
+<item>http://book.sina.cn/</item>
+<item>Интер-edge рынка</item>
+<item>http://3g.gfan.com/</item>
+<item>Мама помочь</item>
+<item>http://3g.mmbang.com/</item>
+<item>Промышленный и коммерческий банк</item>
+<item>http://wap.icbc.com.cn/</item>
+<item>Способ скота путешествия</item>
+<item>http://m.tuniu.com/</item>
+<item>Веб-простое развлечение.</item>
+<item>http://3g.163.com/ent/</item>
+<item>Будет с сетью edge</item>
+<item>http://m.weiphone.com/</item>
+<item>Запад алея</item>
+<item>http://m.xici.net/</item>
+<item>На yelp</item>
+<item>http://wap.dianping.com/</item>
+<item>Министерство обороны</item>
+<item>http://wap.mod.gov.cn/</item>
+<item>Китай entertainment network</item>
+<item>http://m.67.com/</item>
+<item>19楼</item>
+<item>http://www.19lou.com/wap</item>
+<item>Микро радио</item>
+<item>http://radio.weibo.com/</item>
+<item>Сеть друзей</item>
+<item>http://m.pengyou.com/</item>
+<item>Онлайн-перевод</item>
+<item>http://translate.google.com/m/translate</item>
+<item>Новая волна военной</item>
+<item>http://mil.sina.cn/</item>
+<item>Золото овец web</item>
+<item>http://wap.ycwb.com/</item>
+<item>Три из девяти здоровья церкви.</item>
+<item>http://wap.39yst.com/</item>
+<item>Свет сети</item>
+<item>http://3g.gmw.cn/</item>
+<item>21CN</item>
+<item>http://3g.21cn.com/</item>
+<item>Любовь Лото</item>
+<item>http://3g.iletou.com/</item>
+<item>Бобы, фрукты, продукты питания,</item>
+<item>http://m.douguo.com/</item>
+<item>Первый автомобиль сети</item>
+<item>http://3g.iautos.cn/</item>
+<item>Skynet iphone разделе.</item>
+<item>http://i.waptw.com/</item>
+<item>189邮箱</item>
+<item>http://wap.189.cn/wapmail/</item>
+<item>Мик сообщества</item>
+<item>http://bbs.xiaomi.cn</item>
+<item>Здание Банка</item>
+<item>http://m.ccb.com/</item>
+<item>Башня чтение литературы.</item>
+<item>http://wap.tadu.com/</item>
+<item>Michael Hague the Apple форум</item>
+<item>http://bbs.maiyadi.com/</item>
+<item>Весело, круто сообщества</item>
+<item>http://gd.joycool.net/</item>
+<item>Автомобиль Китай</item>
+<item>http://m.carschina.com/</item>
+<item>139邮箱</item>
+<item>http://mail.10086.cn/</item>
+<item>Омлет сети</item>
+<item>http://i.jandan.net/</item>
+<item>Если оболочка.</item>
+<item>http://m.guokr.com/</item>
+<item>Новая волна Созвездие</item>
+<item>http://ast.sina.cn/</item>
+<item>Google map</item>
+<item>http://wapmap.baidu.com/</item>
+<item>Новая волна военной</item>
+<item>http://mil.sina.cn/</item>
+<item>Google maps</item>
+<item>http://ditu.google.cn</item>
+<item>3G星座</item>
+<item>http://astro.3g.cn/</item>
+<item>Быстрый вопрос, доктор.</item>
+<item>http://m.120ask.com/</item>
+<item>.</item>
+<item>http://m.yyets.com/</item>
+<item>Обратившихся за медицинской помощью.</item>
+<item>http://wap.xywy.com/</item>
+<item>Почтовый Сберегательный</item>
+<item>http://wap.psbc.com/</item>
+<item>Телефон Китай</item>
+<item>http://wap.cnmo.com/</item>
+<item>Банк Китая</item>
+<item>http://mbs.boc.cn/</item>
+<item>Коммерческие банки</item>
+<item>https://mobile.cmbchina.com/</item>
+<item>Банк Трафика</item>
+<item>http://wap.95559.com.cn</item>
+<item>Счастливый остров.</item>
+<item>http://m.laifudao.com/</item>
+<item>Кухня</item>
+<item>http://wap.xiachufang.com/</item>
+<item>Работа общественного сети</item>
+<item>http://wap.gzhong.cn/</item>
+<item>Микро-задания</item>
+<item>http://wap.jobtone.cn/</item>
+<item>Играть сообщества</item>
+<item>http://m.yiqiwan.kuxun.cn/</item>
+<item>Чили народной сети</item>
+<item>http://wap.job5156.com/</item>
+<item>Семейный врач.</item>
+<item>http://3g.familydoctor.com.cn/</item>
+<item>Семя сети</item>
+<item>http://m.seedit.com/</item>
+<item>Еда, Джей</item>
+<item>http://wap.meishij.net/</item>
+<item>1314健康网</item>
+<item>http://m.1314jiankang.com/</item>
+<item>YOKA时尚</item>
+<item>http://3g.yoka.com/</item>
+<item>Китай excellence</item>
+<item>http://m.chinahr.com/</item>
+<item>В ладони вашей любви доктор</item>
+<item>http://m.iiyi.com/</item>
+<item>Fly депо сети</item>
+<item>http://i.feiku.com/</item>
+</string-array>
+<string-array name="sys_waiting_tips">
+<item>Нажмите на адрес в колонке микрофон, активировать голосовой поиск.</item>
+<item>Нажмите на пятерку-звездочный кнопке быстрого добавления закладок.</item>
+<item>На первой странице значок приложения могут быть добавлены на телефон настольные</item>
+<item>Общие элементы навигации могут быть добавлены на первую страницу.</item>
+<item>Меню, photo sharing, один-кнопку общий доступ к Twitter</item>
+</string-array>
+<string-array name="zeus_waiting_tips">
+<item>Нажмите на адрес в колонке микрофон, активировать голосовой поиск.</item>
+<item>Нажмите на пятерку-звездочный кнопке быстрого добавления закладок.</item>
+<item>Error</item>
+<item>Общие элементы навигации могут быть добавлены на первую страницу.</item>
+<item>Меню, photo sharing, один-кнопку общий доступ к Twitter</item>
+<item>В тексте перевода строки</item>
+<item>Текст может быть свободно скопирован, поиск</item>
+<item>Нажмите на видео для перехода в полноэкранный режим.</item>
+</string-array>
+<string-array name="reader_flip_ani_entries">
+<item>Нет</item>
+<item>Движения за мир</item>
+<item>Имитация</item>
+</string-array>
+<string-array name="reader_flip_ani_entry_value">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+</string-array>
+<string-array name="reader_screen_time_entries">
+<item>2分钟</item>
+<item>5分钟</item>
+<item>10分钟</item>
+<item>Это так ярко</item>
+</string-array>
+<string-array name="reader_screen_time_entry_value">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+<string-array name="extra_wise_apk_download_folders">
+<item>скачать</item>
+<item>downloads</item>
+<item>ucdownloads</item>
+<item>qqbrowser/скачать</item>
+<item>baidu/flyflow/downloads</item>
+<item>baidu/searchbox/downloads</item>
+<item>DolphinBrowserCN/скачать</item>
+<item>UCDLFiles</item>
+<item>QCDownload</item>
+<item>Скачать</item>
+<item>LXDOWNLOAD/СКАЧАТЬ</item>
+<item>apc/ApcBrowser/downloads</item>
+<item>MxBrowser/Downloads</item>
+<item>TTDownload/installapk</item>
+<item>QQBrowser/下载</item>
+<item>QQBrowser/安装包</item>
+<item>Приложение</item>
+<item>ThunderDownload</item>
+<item>360Browser</item>
+<item>Мой download/browser/другие</item>
+<item>Мой download/browser приложения</item>
+</string-array>
+<string-array name="bdreader_animation_setting_entries">
+<item>Нет</item>
+<item>Движения за мир</item>
+<item>Имитация</item>
+</string-array>
+<string-array name="bdreader_animation_setting_entry_values">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+</string-array>
+<string-array name="bdreader_screen_timeout_entries">
+<item>2分钟</item>
+<item>5分钟</item>
+<item>10分钟</item>
+<item>Это так ярко</item>
+</string-array>
+<string-array name="bdreader_screen_timeout_entry_values">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+<string-array name="bookmarks_title">
+<item>Википедия</item>
+<item>Новая волна</item>
+<item>Web easy</item>
+<item>Новый твит</item>
+<item>Facebook</item>
+<item>Facebook</item>
+</string-array>
+<string-array name="bookmarks_url">
+<item>http://google.ru</item>
+<item>http://yandex.ru</item>
+<item>http://mail.ru</item>
+<item>http://4pda.ru</item>
+<item>http://nytime.com</item>
+<item>http://youtube.com</item>
+</string-array>
+<string-array name="favicon_host_list">
+<item>budejie.com</item>
+<item>yijia.com</item>
+<item>danhuaer.com</item>
+<item>lengxiaohua.com</item>
+<item>zhjm.org</item>
+<item>cpcn.mobi</item>
+<item>google.com.hk</item>
+<item>ct10000.com</item>
+<item>kuaidi100.com</item>
+<item>tuan800.com</item>
+<item>10010.com</item>
+<item>kaixin001.com</item>
+<item>hao123.com</item>
+<item>3533.com</item>
+<item>35533.com</item>
+<item>news.163.com</item>
+<item>163.com</item>
+<item>17173.com</item>
+<item>titan24.com</item>
+<item>m.bao.fm</item>
+<item>marry5.com</item>
+<item>ip138.com</item>
+<item>58.com</item>
+<item>4399.com</item>
+<item>sina.com</item>
+<item>wacaiba.com</item>
+<item>iciba.com</item>
+<item>lvmama.com</item>
+<item>china.com</item>
+<item>chinanews.com</item>
+<item>abchina.com</item>
+<item>cmbchina.com</item>
+<item>hoopchina.com</item>
+<item>appchina.com</item>
+<item>cnbeta.com</item>
+<item>ccb.com</item>
+<item>51job.com</item>
+<item>jjwxc.com</item>
+<item>cmread.com</item>
+<item>starandroid.com</item>
+<item>mvgod.com</item>
+<item>baihe.com</item>
+<item>meizu.com</item>
+<item>mogujie.com</item>
+<item>qiushibaike.com</item>
+<item>google.com</item>
+<item>dangdang.com</item>
+<item>chnqiang.com</item>
+<item>ifeng.com</item>
+<item>zongheng.com</item>
+<item>dianping.com</item>
+<item>1ting.com</item>
+<item>kxting.com</item>
+<item>baixing.com</item>
+<item>elong.com</item>
+<item>lehecai.com</item>
+<item>zhenai.com</item>
+<item>koubei.com</item>
+<item>xunlei.com</item>
+<item>lovebizhi.com</item>
+<item>anzhi.com</item>
+<item>anshouji.com</item>
+<item>rayli.com</item>
+<item>duomi.com</item>
+<item>xiami.com</item>
+<item>xiaomi.com</item>
+<item>nuomi.com</item>
+<item>daqi.com</item>
+<item>shuqi.com</item>
+<item>miui.com</item>
+<item>mumayi.com</item>
+<item>iqiyi.com</item>
+<item>qiyi.com</item>
+<item>cpdyj.com</item>
+<item>7k7k.com</item>
+<item>cnstock.com</item>
+<item>hiapk.com</item>
+<item>vancl.com</item>
+<item>hotmail.com</item>
+<item>tmall.com</item>
+<item>bankcomm.com</item>
+<item>huaban.com</item>
+<item>douban.com</item>
+<item>gfan.com</item>
+<item>qidian.com</item>
+<item>baoruan.com</item>
+<item>meituan.com</item>
+<item>jiayuan.com</item>
+<item>touch.youyuan.com</item>
+<item>muzhiwan.com</item>
+<item>21cn.com</item>
+<item>southcn.com</item>
+<item>jumpcn.com</item>
+<item>renren.com</item>
+<item>zhaopin.com</item>
+<item>soufun.com</item>
+<item>hexun.com</item>
+<item>lexun.com</item>
+<item>taobao.com</item>
+<item>huochepiao.com</item>
+<item>letao.com</item>
+<item>weibo.com</item>
+<item>roboo.com</item>
+<item>cn.yahoo.com</item>
+<item>aqioo.com</item>
+<item>okooo.com</item>
+<item>bitauto.com</item>
+<item>ddmap.com</item>
+<item>fpwap.com</item>
+<item>ctrip.com</item>
+<item>mop.com</item>
+<item>qzone.qq.com</item>
+<item>qq.com</item>
+<item>wapzq.com</item>
+<item>qunar.com</item>
+<item>stockstar.com</item>
+<item>chinahr.com</item>
+<item>joyes.com</item>
+<item>jxedt.com</item>
+<item>baidu.com</item>
+<item>sohu.com</item>
+<item>feiliu.com</item>
+<item>huanqiu.com</item>
+<item>hongxiu.com</item>
+<item>youku.com</item>
+<item>tudou.com</item>
+<item>mp3.sogou.com</item>
+<item>lashou.com</item>
+<item>19lou.com</item>
+<item>easou.com</item>
+<item>Error</item>
+<item>letv.com</item>
+<item>pptv.com</item>
+<item>zhcw.com</item>
+<item>waptw.com</item>
+<item>alipay.com</item>
+<item>onlylady.com</item>
+<item>eastmoney.com</item>
+<item>360buy.com</item>
+<item>a.155.cn</item>
+<item>8684.cn</item>
+<item>9666.cn</item>
+<item>10086.cn</item>
+<item>sina.cn</item>
+<item>tianya.cn</item>
+<item>boc.cn</item>
+<item>uc.cn</item>
+<item>d.cn</item>
+<item>google.cn</item>
+<item>9game.cn</item>
+<item>3g.cn</item>
+<item>ganji.cn</item>
+<item>ganji.com</item>
+<item>sina.com.cn</item>
+<item>icbc.com.cn</item>
+<item>people.com.cn</item>
+<item>autohome.com.cn</item>
+<item>autohome.com</item>
+<item>pconline.com.cn</item>
+<item>vogue.com.cn</item>
+<item>rayli.com.cn</item>
+<item>2859.yoyuan.com.cn</item>
+<item>jrj.com.cn</item>
+<item>zol.com.cn</item>
+<item>xcar.com.cn</item>
+<item>trends.com.cn</item>
+<item>gw.com.cn</item>
+<item>pclady.com.cn</item>
+<item>amazon.cn</item>
+<item>paojiao.cn</item>
+<item>weibo.cn</item>
+<item>aqioo.cn</item>
+<item>kuwo.cn</item>
+<item>xs.cn</item>
+<item>vnet.cn</item>
+<item>lottery.gov.cn</item>
+<item>gov.cn</item>
+<item>3ggpw.cn</item>
+<item>joy.cn</item>
+<item>91mp3.net</item>
+<item>jjwxc.net</item>
+<item>tiexue.net</item>
+<item>newsmth.net</item>
+<item>xxsy.net</item>
+<item>mp3.baidu.com</item>
+<item>opda.com.cn</item>
+<item>sogou.com</item>
+<item>wapp.baidu.com</item>
+<item>tuan.baidu.com</item>
+<item>p.777wyx.com</item>
+<item>p.yolk7.com</item>
+<item>p.zx915.com</item>
+<item>game.51.com</item>
+<item>t.iloveyouxi.com</item>
+<item>g.zx915.com</item>
+<item>wishct.com</item>
+<item>open.lovebizhi.com</item>
+<item>news.cn</item>
+<item>155.cn</item>
+<item>bao.fm</item>
+<item>soso.com</item>
+<item>39.net</item>
+<item>hupu.com</item>
+<item>wk.baidu.com</item>
+<item>z.qq.com</item>
+<item>qzone.com</item>
+<item>jd.com</item>
+<item>yiche.com</item>
+<item>cntv.cn.com</item>
+<item>youyuan.com</item>
+<item>duokoo.baidu.com</item>
+<item>huanxia.com</item>
+<item>120ask.com</item>
+<item>ku6.com</item>
+<item>qidian.cn</item>
+<item>bookbao.com</item>
+<item>ha18.com</item>
+<item>56.com</item>
+<item>vipshop.com</item>
+<item>17k.com</item>
+<item>17kss.com</item>
+<item>xywy.com</item>
+<item>myapp.com</item>
+<item>mmb.cn</item>
+<item>mahua.com</item>
+<item>babytree.com</item>
+<item>haodf.com</item>
+<item>yicha.cn</item>
+<item>docin.com</item>
+<item>etao.com</item>
+<item>hitao.com</item>
+<item>lecai.com</item>
+<item>doc88.com</item>
+<item>soku.com</item>
+<item>duoku.com</item>
+<item>jimu.tv</item>
+<item>wasu.cn</item>
+<item>pcauto.com.cn</item>
+<item>people.cn</item>
+<item>faloo.com</item>
+<item>weathercn.com</item>
+<item>tvmao.com</item>
+<item>huluxia.com</item>
+<item>xinshipu.com</item>
+<item>mail.qq.com</item>
+<item>ubook.qq.com</item>
+<item>pt.3g.qq.com</item>
+<item>ti.3g.qq.com</item>
+<item>nba.sina.cn</item>
+<item>go.10086.cn</item>
+<item>wapwenku.baidu.com</item>
+<item>wapmap.baidu.com</item>
+<item>zhidao.baidu.com</item>
+<item>pan.baidu.com</item>
+<item>wapbaike.baidu.com</item>
+<item>bbs.actoys.net</item>
+<item>78dm.net</item>
+<item>bbs.78dm.net</item>
+<item>actoys.net</item>
+<item>tgbus.com</item>
+<item>yohobuy.com</item>
+<item>topit.me</item>
+<item>chahua.org</item>
+<item>duitang.com</item>
+<item>eueueu.com</item>
+<item>smashingmagazine.com</item>
+<item>issuu.com</item>
+<item>dribbble.com</item>
+<item>mtime.co</item>
+</string-array>
+<string-array name="history_name">
+<item>Википедия</item>
+<item>Новая волна</item>
+<item>Феникс</item>
+<item>hao123</item>
+<item>Поиск Лиса.</item>
+<item>EBay</item>
+</string-array>
+<string-array name="history_url">
+<item>http://google.ru</item>
+<item>http://yandex.ru</item>
+<item>http://mail.ru</item>
+<item>http://4pda.ru</item>
+<item>http://nytime.com</item>
+<item>http://youtube.com</item>
+</string-array>
 </resources>
