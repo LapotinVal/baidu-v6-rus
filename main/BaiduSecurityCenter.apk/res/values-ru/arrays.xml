@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scan_frequency">
+        <item>Раз в неделю</item>
+        <item>Раз в месяц</item>
+    </string-array>
+    <string-array name="schedule_week_dialog">
+        <item>Каждое воскресенье</item>
+        <item>Каждый понедельник</item>
+        <item>Каждый вторник</item>
+        <item>Каждую среду</item>
+        <item>Каждый четверг</item>
+        <item>Каждую пятницу</item>
+        <item>Каждую субботу</item>
+    </string-array>
+    <string-array name="schedule_month_date">
+        <item>1 числа</item>
+        <item>2 числа</item>
+        <item>3 числа</item>
+        <item>4 числа</item>
+        <item>5 числа</item>
+        <item>6 числа</item>
+        <item>7 числа</item>
+        <item>8 числа</item>
+        <item>9 числа</item>
+        <item>10 числа</item>
+        <item>11 числа</item>
+        <item>12 числа</item>
+        <item>13 числа</item>
+        <item>14 числа</item>
+        <item>15 числа</item>
+        <item>16 числа</item>
+        <item>17 числа</item>
+        <item>18 числа</item>
+        <item>19 числа</item>
+        <item>20 числа</item>
+        <item>21 числа</item>
+        <item>22 числа</item>
+        <item>23 числа</item>
+        <item>24 числа</item>
+        <item>25 числа</item>
+        <item>26 числа</item>
+        <item>27 числа</item>
+        <item>28 числа</item>
+        <item>29 числа</item>
+        <item>30 числа</item>
+        <item>31 числа</item>
+    </string-array>
+    <string-array name="schedule_day_time">
+        <item>0 часов</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>4 часа</item>
+        <item>5 часов</item>
+        <item>6 часов</item>
+        <item>7 часов</item>
+        <item>8 часов</item>
+        <item>9 часов</item>
+        <item>10 часов</item>
+        <item>11 часов</item>
+        <item>12 часов</item>
+        <item>13 часов</item>
+        <item>14 часов</item>
+        <item>15 часов</item>
+        <item>16 часов</item>
+        <item>17 часов</item>
+        <item>18 часов</item>
+        <item>19 часов</item>
+        <item>20 часов</item>
+        <item>21 часов</item>
+        <item>22 часов</item>
+        <item>23 часов</item>
+    </string-array>
+</resources>
