@@ -1,0 +1,19 @@
+version: 2.0.0
+apkFileName: framework-res-yi.apk
+isFrameworkApk: true
+usesFramework:
+  ids:
+  - 1
+  - 2
+  - 3
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: yi
+  cur_package_id: '5'
+  orig_package: yi
+versionInfo:
+  versionCode: '17'
+  versionName: 4.2.1-G4_R_2.3.58.47
+compressionType: false
