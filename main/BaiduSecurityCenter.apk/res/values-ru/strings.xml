@@ -14,10 +14,10 @@
     <string name="main_has_fee_deduction">Зарядка</string>
     <string name="main_detection_no_malicious_name">Нет риска</string>
     <string name="main_detection_has_malicious_name">Подвержен риску</string>
-    <string name="main_detection_no_cyber_name">Нет сетевой угрозы</string>
-    <string name="main_detection_has_cyber_name">Сетевая угроза</string>
+    <string name="main_detection_no_cyber_name">Нет сетевых угроз</string>
+    <string name="main_detection_has_cyber_name">Найдено сетевых угроз</string>
     <string name="main_detection_dialog_title">Остановить сканирование</string>
-    <string name="main_detection_dialog_title2">Тип</string>
+    <string name="main_detection_dialog_title2">Tips</string>
     <string name="main_detection_dialog_msg_fix">Сканирование будет остановлено, вы хотите выйти?</string>
     <string name="main_detection_dialog_msg_fix2">Есть еще нерешенные проблемы, вы хотите выйти?</string>
     <string name="main_detection_dialog_btn_submit">Принять</string>
@@ -39,22 +39,14 @@
     <string name="main_system_protection">Защита системы</string>
     <string name="main_garbage_clean">Очистка мусора</string>
     <string name="main_memory_clean">Очистка памяти</string>
-    <string name="main_speed_up">"Увеличение
-скорости"</string>
-    <string name="main_permission_control">"Монитор
-разрешений"</string>
-    <string name="main_virus_interception">"Сканирование
-вирусов"</string>
-    <string name="main_nuisance_interception">"Центр
-блокировки"</string>
-    <string name="main_find_my_phone">"Найди
-меня"</string>
-    <string name="main_traffic_helper">"Контроль
-трафика"</string>
-    <string name="main_access_control">"Блокировка
-приложений"</string>
-    <string name="main_notification_interception">"Фильтр
-уведомлений"</string>
+    <string name="main_speed_up">Увеличение\nскорости</string>
+    <string name="main_permission_control">Монитор\nразрешений</string>
+    <string name="main_virus_interception">Сканирование\nвирусов</string>
+    <string name="main_nuisance_interception">Центр\nблокировки</string>
+    <string name="main_find_my_phone">Найди\nменя</string>
+    <string name="main_traffic_helper">Контроль\nтрафика</string>
+    <string name="main_access_control">Блокировка\nприложений</string>
+    <string name="main_notification_interception">Фильтр\nуведомлений</string>
     <string name="activity_not_found">Проверте %s удалено или остановлено</string>
     <string name="main_one_key_check">Проверка</string>
     <string name="scan_result_suggestion_msg">Просканировано</string>
@@ -69,7 +61,7 @@
     <string name="toast_pre_scan_safe">Это приложение является безопасным для использования</string>
     <string name="malware_app">Зараженные приложения</string>
     <string name="high_risk_app">Подозрительные приложения</string>
-    <string name="low_risk_app">Приложение низкого риска</string>
+    <string name="low_risk_app">Низкая степень риска</string>
     <string name="scan_title">Сканирование вирусов</string>
     <string name="malware">Вирус</string>
     <string name="high_risk">Риск</string>
@@ -80,7 +72,7 @@
 Нажмите кнопку заменить для скачивания и замены"</string>
     <string name="suggest_highrisk">"Удаление
 
-Добавить данное приложение в список доверительных и исключить из проверки"</string>
+Добавить данное приложение в список доверительных и исключить из проверки</string>
     <string name="suggest_lowrisk">Используйте с осторожностью</string>
     <string name="scan_result_suggestion_title">Рекомендации по лечению</string>
     <string name="virus_list_title">Описание вируса</string>
@@ -99,7 +91,7 @@
     <string name="scan_finish">Закончено</string>
     <string name="result_suggest_malware">Пожалуйста, удалите немедленно</string>
     <string name="result_suggest_fakeware">Пожалуйста, замените на легальное официальное приложение</string>
-    <string name="result_suggest_highrisk_realtime">Пожалуйста завершите немедленно</string>
+    <string name="result_suggest_highrisk_realtime">Просьба немедленно</string>
     <string name="ignore_dialog_title">Добавить в список доверенных</string>
     <string name="ignore_dialog_description">Это приложение будет добавлено в список доверенных и исключено из сканирования</string>
     <string name="replace_dialog_title">Переустановить cyber приложение</string>
@@ -180,8 +172,8 @@
     <string name="process_clean_bottom_button">Очистка</string>
     <string name="process_clean_text">Возможность чистки процесса</string>
     <string name="deep_clean_text">Отчистка от мусорных файлов</string>
-    <string name="process_clean_title">"Очистка
-процессов"</string>
+    <string name="deep_clean_text_release">Отчистка от мусорных файлов, было освобождено %1$s</string>
+    <string name="process_clean_title">Очистка\nпроцессов</string>
     <string name="process_clean_subtitle_without_problem">Нет процессов</string>
     <string name="cache_clean_title">Очистка кеша</string>
     <string name="deep_clean_title">Глубокая очистка</string>
@@ -193,8 +185,7 @@
     <string name="speed_up">Ускорение работы</string>
     <string name="speed_up_cache_clean">Очистка кеша</string>
     <string name="speed_up_self_start_clean">Автозагрузка</string>
-    <string name="speed_up_process_clean">"Очистка
-процессов"</string>
+    <string name="speed_up_process_clean">Очистка\nпроцессов</string>
     <string name="speed_up_finish">Готово</string>
     <string name="speed_up_deep_clean">Глубокое ускорение работы</string>
     <string name="speed_up_one_key">Ускорение работы</string>
@@ -315,8 +306,7 @@
     <string name="after_optimize_suggest_title2">Все опасные объекты были устранены</string>
     <string name="result_suggest_malware_beforeinstall">Пожалуста остановите установку</string>
     <string name="result_suggest_risk_beforeinstall">Рекомендуем отменить установку</string>
-    <string name="deep_clean_item">Очищено:%1$s</string>
+    <string name="deep_clean_item">Очищено: %1$s</string>
     <string name="process_clean_cleanable">Очищаемые приложения</string>
     <string name="process_clean_whitelist">Защищенные приложения</string>
-    <string name="deep_clean_text_release">Отчистка от мусорных файлов, было освобождено %1$s</string>
 </resources>

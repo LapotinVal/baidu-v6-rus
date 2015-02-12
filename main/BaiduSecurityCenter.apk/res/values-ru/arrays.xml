@@ -14,37 +14,37 @@
         <item>Каждую субботу</item>
     </string-array>
     <string-array name="schedule_month_date">
-        <item>1 числа</item>
-        <item>2 числа</item>
-        <item>3 числа</item>
-        <item>4 числа</item>
-        <item>5 числа</item>
-        <item>6 числа</item>
-        <item>7 числа</item>
-        <item>8 числа</item>
-        <item>9 числа</item>
-        <item>10 числа</item>
-        <item>11 числа</item>
-        <item>12 числа</item>
-        <item>13 числа</item>
-        <item>14 числа</item>
-        <item>15 числа</item>
-        <item>16 числа</item>
-        <item>17 числа</item>
-        <item>18 числа</item>
-        <item>19 числа</item>
-        <item>20 числа</item>
-        <item>21 числа</item>
-        <item>22 числа</item>
-        <item>23 числа</item>
-        <item>24 числа</item>
-        <item>25 числа</item>
-        <item>26 числа</item>
-        <item>27 числа</item>
-        <item>28 числа</item>
-        <item>29 числа</item>
-        <item>30 числа</item>
-        <item>31 числа</item>
+        <item>1-го</item>
+        <item>2-го</item>
+        <item>3-го</item>
+        <item>4-го</item>
+        <item>5-го</item>
+        <item>6-го</item>
+        <item>7-го</item>
+        <item>8-го</item>
+        <item>9-го</item>
+        <item>10-го</item>
+        <item>11-го</item>
+        <item>12-го</item>
+        <item>13-го</item>
+        <item>14-го</item>
+        <item>15-го</item>
+        <item>16-го</item>
+        <item>17-го</item>
+        <item>18-го</item>
+        <item>19-го</item>
+        <item>20-го</item>
+        <item>21-го</item>
+        <item>22-го</item>
+        <item>23-го</item>
+        <item>24-го</item>
+        <item>25-го</item>
+        <item>26-го</item>
+        <item>27-го</item>
+        <item>28-го</item>
+        <item>29-го</item>
+        <item>30-го</item>
+        <item>31-го</item>
     </string-array>
     <string-array name="schedule_day_time">
         <item>0 часов</item>

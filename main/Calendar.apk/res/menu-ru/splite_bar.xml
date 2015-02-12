@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/menu_cancel_holo_light" android:id="@id/item_cancel" android:title="Отмена" android:showAsAction="ifRoom|withText" />
-    <item android:icon="@drawable/menu_done_holo_light" android:id="@id/item_done" android:title="Готово" android:showAsAction="ifRoom|withText" />
-</menu>

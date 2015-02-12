@@ -1,0 +1,16 @@
+version: 2.1.8-BZ
+apkFileName: NewPhoneWizard.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 5
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '1'
+  versionName: 8190Q_R_2.3.66.21
+compressionType: false
