@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_entries">
+        <item>Сроки Закрыть</item>
+        <item>Через 10 минут</item>
+        <item>Через 30 мин</item>
+        <item>Через 60 минут</item>
+        <item>Через 90 мин</item>
+    </string-array>
+    <string-array name="list_entries_value">
+        <item>0</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+    <string-array name="network_control_entries">
+        <item>Вкл.</item>
+        <item>Только по wi-fi</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="network_control_entries_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="online_listen_download_entries">
+        <item>Вкл.</item>
+        <item>Только по wi-fi</item>
+    </string-array>
+    <string-array name="online_listen_download_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="equalize_key">
+        <item>Нормальный</item>
+        <item>Рок</item>
+        <item>Поп</item>
+        <item>Плоский</item>
+        <item>Хэви-метал</item>
+        <item>Классический</item>
+        <item>Джаз</item>
+        <item>Танцевальный</item>
+        <item>Хип-хоп</item>
+    </string-array>
+    <string-array name="equalize_values">
+        <item>Умолчание</item>
+        <item>Рок</item>
+        <item>Поп</item>
+        <item>Бас</item>
+        <item>Хэви-метал</item>
+        <item>Классика</item>
+        <item>Джаз</item>
+        <item>Вечеринка</item>
+        <item>Хип-Хоп</item>
+    </string-array>
+</resources>

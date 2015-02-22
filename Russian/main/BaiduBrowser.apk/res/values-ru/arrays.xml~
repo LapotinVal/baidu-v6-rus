@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string-array name="pref_webkit_ua">
+<item>Android</item>
+<item>PC</item>
+<item>iPhone</item>
+</string-array>
+<string-array name="pref_read_ahead">
+<item>Запрещается использование pre-reading</item>
+<item>WAP</item>
+<item>Предварительно читать полностью</item>
+</string-array>
+<string-array name="pref_auto_flash_switch">
+<item>Автоматической трансляции Flash.</item>
+<item>Нажмите кнопку играть во Flash.</item>
+</string-array>
+<string-array name="pref_safecheck">
+<item>Полная подсказка.</item>
+<item>Иногда подсказывать</item>
+<item>Минимальный</item>
+</string-array>
+<string-array name="pref_shrink">
+<item>Адаптация к экрану.</item>
+<item>Норм показывает</item>
+</string-array>
+<string-array name="pref_pic_quality_entries">
+<item>Низкая цвет</item>
+<item>Стандарты</item>
+<item>HD</item>
+</string-array>
+<string-array name="pref_volume_mode_entries">
+<item>Звук</item>
+<item>Прокрутка кнопками</item>
+<item>Переключение вкладок</item>
+</string-array>
+<string-array name="pref_textsize_setting">
+<item>Маленький</item>
+<item>Средний</item>
+<item>Крупный</item>
+</string-array>
+<string-array name="pref_notification_setting">
+<item>Видео обновлений</item>
+<item>Роман обновления.</item>
+</string-array>
+<string-array name="manage_space_titles">
+<item>Чтобы очистить кэшированные данные</item>
+<item>Чтобы очистить историю поиска</item>
+<item>Удалить Куки.</item>
+<item>Чтобы удалить один пароль.</item>
+</string-array>
+<string-array name="manage_space_tips">
+<item>Удалить хранящиеся в локальном кэше, данных на странице</item>
+<item>Очистить браузер поле поиска введите записей</item>
+<item>Очистить все Cookies, данные</item>
+<item>Очистить все сохраненные лист данных паролем</item>
+</string-array>
+<string-array name="local_website">
+<item>Новая волна</item>
+<item>http://sina.cn/</item>
+<item>Феникс</item>
+<item>http://i.ifeng.com/</item>
+<item>Поиск Лиса.</item>
+<item>http://m.sohu.com/</item>
+<item>Бесплатный Информационный бюллетень</item>
+<item>http://3g.qq.com/</item>
+<item>Википедия</item>
+<item>http://m.baidu.com/</item>
+<item>EBay</item>
+<item>http://m.taobao.com/</item>
+<item>Web easy</item>
+<item>http://3g.163.com/</item>
+<item>YouTube</item>
+<item>http://3g.youku.com/</item>
+<item>Car home.</item>
+<item>http://m.autohome.com.cn/</item>
+<item>3G门户</item>
+<item>http://3g.cn/</item>
+<item>Глобальная сеть</item>
+<item>http://wap.huanqiu.com</item>
+<item>Новая волна спорт</item>
+<item>http://sports.sina.cn</item>
+<item>Китайский Новый чистый</item>
+<item>http://m.news.cn/</item>
+<item>Новая волна в НБА.</item>
+<item>http://nba.sina.cn</item>
+<item>Восточные богатства.</item>
+<item>http://wap.eastmoney.com</item>
+<item>Народная сеть</item>
+<item>http://wap.people.com.cn</item>
+<item>YouTube</item>
+<item>http://3g.youku.com/</item>
+<item>Китай военных</item>
+<item>http://3g.china.com/mili/</item>
+<item>Центральное телевидение</item>
+<item>http://wap.cctv.com</item>
+<item>Утюг</item>
+<item>http://m.tiexue.net/3g/</item>
+<item>Beijing East</item>
+<item>http://m.jd.com/</item>
+<item>Люблю Нечетные искусства</item>
+<item>http://m.iqiyi.com/</item>
+<item>58同城</item>
+<item>http://wap.58.com</item>
+<item>Где</item>
+<item>http://touch.qunar.com/</item>
+<item>Картофель</item>
+<item>http://m.tudou.com</item>
+<item>Cool dog.</item>
+<item>http://m.kugou.com/</item>
+<item>Сук</item>
+<item>http://wap.ganji.cn/</item>
+<item>Роман чтении сети</item>
+<item>http://t.xs.cn/</item>
+<item>Моей жизни.</item>
+<item>http://3g.tianya.cn</item>
+<item>Желаем, чтобы поиск романа.</item>
+<item>http://book.easou.com/</item>
+<item>Музыка аудио</item>
+<item>http://m.letv.com/</item>
+<item>Китай погода в сеть</item>
+<item>http://wap.weather.com.cn/wap/</item>
+<item>Красный лидер</item>
+<item>http://wap.hongxiu.com/</item>
+<item>QQ音乐</item>
+<item>http://music.3g.qq.com/</item>
+<item>Craigslist</item>
+<item>http://wap.baixing.com</item>
+<item>QQ空间</item>
+<item>http://z.qq.com</item>
+<item>Мик-сайте.</item>
+<item>http://m.xiaomi.com/</item>
+<item>RadioShack.</item>
+<item>http://3g.zol.com.cn/</item>
+<item>Google music.</item>
+<item>http://music.baidu.com/</item>
+<item>Кот напал</item>
+<item>http://3g.mop.com</item>
+<item>163邮箱</item>
+<item>http://smart.mail.163.com/?dv=smart</item>
+<item>Люблю карты, прокат</item>
+<item>http://wap.xcar.com.cn/</item>
+<item>Андрей рынках</item>
+<item>http://360.apk.hiapk.com/</item>
+<item>QQ邮箱</item>
+<item>http://w.mail.qq.com/</item>
+<item>Лотереи web</item>
+<item>http://wap.zhcw.com/</item>
+<item>Когда</item>
+<item>http://m.dangdang.com/</item>
+<item>Каждый день музыка.</item>
+<item>http://yy.ttpod.com/</item>
+<item>Финансовый мир.</item>
+<item>http://m.jrj.com.cn</item>
+<item>Мне сказать в суде</item>
+<item>http://m.xxsy.net/</item>
+<item>И связи</item>
+<item>http://wap.hexun.com</item>
+<item>Романс роман.</item>
+<item>http://w.xs8.cn/</item>
+<item>Любовь</item>
+<item>http://m.zhenai.com/</item>
+<item>126邮箱</item>
+<item>http://smart.mail.126.com/?dv=smart</item>
+<item>Лилии сети</item>
+<item>http://3g.baihe.com</item>
+<item>Единственными продуктами</item>
+<item>http://m.vipshop.com/</item>
+<item>Лотерея</item>
+<item>http://m.lecai.com/</item>
+<item>См. веб -</item>
+<item>http://wap.kanshu.com/</item>
+<item>Поиск Фокс видео</item>
+<item>http://m.tv.sohu.com/</item>
+<item>Стыдно Википедии</item>
+<item>http://m.qiushibaike.com/</item>
+<item>Rage комиксов</item>
+<item>http://m.baozoumanhua.com/</item>
+<item>Google map</item>
+<item>http://map.baidu.com/</item>
+<item>Google video</item>
+<item>http://m.baidu.com/video</item>
+<item>Военный Амир</item>
+<item>http://wap.miercn.com/</item>
+<item>Новая волна видео</item>
+<item>http://video.sina.cn/</item>
+<item>Happy крендель.</item>
+<item>http://m.kl688.com/</item>
+<item>Онлайн-перевод</item>
+<item>http://fanyi.baidu.com/</item>
+<item>Jin Jiang литературы.</item>
+<item>http://m.jjwxc.com/</item>
+<item>Fedex 100</item>
+<item>http://wap.kuaidi100.com/</item>
+<item>Бесплатно роман</item>
+<item>http://m.hao123.com/a/xiaoshuo</item>
+<item>Приложения обмениваются</item>
+<item>http://m.appchina.com</item>
+<item>Google пособие.</item>
+<item>http://tieba.baidu.com/</item>
+<item>Error</item>
+<item>http://wapmail.10086.cn/</item>
+<item>8684公交</item>
+<item>http://m.8684.cn/</item>
+<item>Google знает.</item>
+<item>http://wapiknow.baidu.com/</item>
+<item>На рынке Чили</item>
+<item>http://m.anzhi.com</item>
+<item>Регулярное использование телефона.</item>
+<item>http://m.hao123.com/n/v/dianhua</item>
+<item>Ссылка новости.</item>
+<item>http://m.cankaoxiaoxi.com/</item>
+<item>Facebook</item>
+<item>http://m.renren.com/</item>
+<item>hao123彩票</item>
+<item>http://m.hao123.com/n/v/caipiao</item>
+<item>PPTV</item>
+<item>http://m.pptv.com/</item>
+<item>Википедия альбом.</item>
+<item>http://xiangce.baidu.com/m</item>
+<item>Отправной точкой</item>
+<item>http://qidian.cn/</item>
+<item>Флаг</item>
+<item>http://m.shuqiread.com/</item>
+<item>Яблоневый сад.</item>
+<item>http://m.app111.com</item>
+<item>Измельчить Рю-стрит.</item>
+<item>http://m.mogujie.com/</item>
+<item>Вместе, США приоритетных продуктов</item>
+<item>http://m.jumei.com/</item>
+<item>Pacific автомобильной сети</item>
+<item>http://m.pcauto.com.cn/</item>
+<item>Match.com.</item>
+<item>http://3g.jiayuan.com/</item>
+<item>Красиво сказал</item>
+<item>http://wap.meilishuo.com/</item>
+<item>Стратегические сети</item>
+<item>http://wap.chinaiiss.com/</item>
+<item>Снасти</item>
+<item>http://m.hupu.com/</item>
+<item>Время web</item>
+<item>http://m.mtime.com/</item>
+<item>Бесплатное видео</item>
+<item>http://3g.v.qq.com</item>
+<item>Военно-frontier</item>
+<item>http://m.qianyan001.com/</item>
+<item>Отправной точкой китайской</item>
+<item>http://m.qidian.com</item>
+<item>Китай news network</item>
+<item>http://m.chinanews.com/</item>
+<item>Австралийского сайта</item>
+<item>http://wap.okooo.com/</item>
+<item>1号店</item>
+<item>http://m.yihaodian.com/</item>
+<item>1518姓名测试</item>
+<item>http://m.1518.com/</item>
+<item>500彩票网</item>
+<item>http://3g.500.com/</item>
+<item>Wikipedia-туризм</item>
+<item>http://lvyou.baidu.com/</item>
+<item>Салон швейцарских сети</item>
+<item>http://wap.rayli.com.cn/</item>
+<item>Любой клиент</item>
+<item>http://m.vancl.com/</item>
+<item>The wall street journal</item>
+<item>http://m.cn.wsj.com/</item>
+<item>ID поиск</item>
+<item>http://wap.ip138.com/id.html</item>
+<item>Холодная шутка.</item>
+<item>http://m.lengxiaohua.com/</item>
+<item>Как здорово город.</item>
+<item>http://xs.duoku.com/xs/</item>
+<item>Опыт Google</item>
+<item>http://jingyan.baidu.com/m/</item>
+<item>Новый твит</item>
+<item>http://weibo.cn/</item>
+<item>Есть о чем беспокоиться</item>
+<item>http://m.51job.com/</item>
+<item>Андрей сети</item>
+<item>http://m.hiapk.com/</item>
+<item>Телефон веб-лотерея</item>
+<item>http://zucp.com/</item>
+<item>Живот web</item>
+<item>http://m.pengfu.com/</item>
+<item>Миссия США</item>
+<item>http://i.meituan.com</item>
+<item>Reuters китайские сети</item>
+<item>http://cn.mobile.reuters.com/</item>
+<item>Телефон сеть фильм</item>
+<item>http://m1905.cn/</item>
+<item>Горизонтальные и вертикальные сети</item>
+<item>http://wap.zongheng.com/</item>
+<item>Рука сети</item>
+<item>http://m.lashou.com/</item>
+<item>39健康网</item>
+<item>http://3g.39.net/</item>
+<item>Amazon</item>
+<item>http://www.amazon.cn/gp/aw/</item>
+<item>17k小说</item>
+<item>http://wap.17kss.com/</item>
+<item>Сумка веб -</item>
+<item>http://m.bookbao.com/</item>
+<item>Номеру телефона, найти</item>
+<item>http://wap.ip138.com/sim.html</item>
+<item>Мечта BA Салли</item>
+<item>http://t.moonbasa.com/</item>
+<item>3G图片</item>
+<item>http://latu.3g.cn/</item>
+<item>Bee Happy</item>
+<item>http://m.lefeng.com/</item>
+<item>91助手</item>
+<item>http://d.91.com/</item>
+<item>Ценные бумаги звезда</item>
+<item>http://m.stockstar.com/</item>
+<item>56视频</item>
+<item>http://3g.56.com/</item>
+<item>Миллион в лотерею.</item>
+<item>http://3g.wcai8.com/</item>
+<item>273二手交易</item>
+<item>http://m.273.cn/</item>
+<item>China mobile</item>
+<item>http://wap.10086.cn/</item>
+<item>Круто моя музыка.</item>
+<item>http://m.kuwo.cn</item>
+<item>Носил повестки дня</item>
+<item>http://m.ctrip.com/</item>
+<item>Онлайн авторынок.</item>
+<item>http://m.cheshi.com/</item>
+<item>Первые
+ созвездия.</item>
+<item>http://3g.d1xz.net/</item>
+<item>3G体育</item>
+<item>http://sports.3g.cn/</item>
+<item>Pat</item>
+<item>http://m.paipai.com</item>
+<item>Intellilink найма</item>
+<item>http://wap.zhaopin.com/</item>
+<item>Новая волна женщин</item>
+<item>http://eladies.sina.cn/</item>
+<item>Бразильской армии.</item>
+<item>http://m.xilu.com/</item>
+<item>Горох клип</item>
+<item>http://m.wandoujia.com/</item>
+<item>Номер поиска.</item>
+<item>http://m.soufun.com/</item>
+<item>Bean</item>
+<item>http://m.douban.com/</item>
+<item>Хорошая музыка купить</item>
+<item>http://m.okbuy.com/</item>
+<item>Поиск собаки музыка</item>
+<item>http://m.sogou.com/music/index.jsp</item>
+<item>Новая волна экономике и финансам</item>
+<item>http://finance.sina.cn/</item>
+<item>Лотерея форум</item>
+<item>http://wap.17500.cn/</item>
+<item>Соединенные morning post</item>
+<item>http://www.zaobao.com/</item>
+<item>Довольно легко приобрести</item>
+<item>http://m.suning.com/</item>
+<item>iphone中文网</item>
+<item>http://iphone.tgbus.com/</item>
+<item>Кэти, сотовый телефон сеть</item>
+<item>http://3g.kdnet.net/</item>
+<item>Девять плавательный игры.</item>
+<item>http://wap.9game.cn/</item>
+<item>3G娱乐</item>
+<item>http://ent.3g.cn/</item>
+<item>Baby soft.</item>
+<item>http://baoruan.com</item>
+<item>Продажа детские</item>
+<item>http://www.mmb.cn/</item>
+<item>XDACN论坛</item>
+<item>http://bbs.xda.cn/forum.php</item>
+<item>Новая волна, e-mail</item>
+<item>http://mail.sina.com.cn/wapmail/logon.php?vt=4</item>
+<item>Еда</item>
+<item>http://wap.meishichina.com</item>
+<item>Флеш</item>
+<item>http://m.hexin.cn/</item>
+<item>Доминиканская музыка.</item>
+<item>http://wap.duomi.com/</item>
+<item>Школа вождения.</item>
+<item>http://m.jxedt.com/</item>
+<item>Великая мудрость</item>
+<item>http://wapgw.cn/</item>
+<item>PPS</item>
+<item>http://m.pps.tv/</item>
+<item>Железного друга.</item>
+<item>http://yushouqi.m.tieyou.com/</item>
+<item>Facebook</item>
+<item>http://wap.kaixin001.com/</item>
+<item>Неделю общественное понимание мечты.</item>
+<item>http://jiemengmobi.duapp.com/</item>
+<item>Пузырь сети</item>
+<item>http://m.pcpop.com/</item>
+<item>Андрей сети</item>
+<item>http://a.155.cn/</item>
+<item>Тот же процесс сети</item>
+<item>http://wap.17u.cn/</item>
+<item>На рынке программного обеспечения для безопасности</item>
+<item>http://m.3gyu.com/</item>
+<item>Телевизор кота</item>
+<item>http://m.tvmao.com/</item>
+<item>China Telecom</item>
+<item>http://wap.ct10000.com/</item>
+<item>China Unicom</item>
+<item>http://mob.10010.com/</item>
+<item>Интер-edge-форум</item>
+<item>http://bbs.gfan.com/m/</item>
+<item>Билет на поезд web</item>
+<item>http://huochepiao.baidu.com/</item>
+<item>12306</item>
+<item>http://www.12306.cn/</item>
+<item>it168</item>
+<item>http://m.it168.com/</item>
+<item>Легкий сети автомобиля</item>
+<item>http://wap.bitauto.com/</item>
+<item>N多市场</item>
+<item>http://m.nduoa.com/</item>
+<item>Речная сеть</item>
+<item>http://3g.dahe.cn/</item>
+<item>Новая волна чтении.</item>
+<item>http://book.sina.cn/</item>
+<item>Интер-edge рынка</item>
+<item>http://3g.gfan.com/</item>
+<item>Мама помочь</item>
+<item>http://3g.mmbang.com/</item>
+<item>Промышленный и коммерческий банк</item>
+<item>http://wap.icbc.com.cn/</item>
+<item>Способ скота путешествия</item>
+<item>http://m.tuniu.com/</item>
+<item>Веб-простое развлечение.</item>
+<item>http://3g.163.com/ent/</item>
+<item>Будет с сетью edge</item>
+<item>http://m.weiphone.com/</item>
+<item>Запад алея</item>
+<item>http://m.xici.net/</item>
+<item>На yelp</item>
+<item>http://wap.dianping.com/</item>
+<item>Министерство обороны</item>
+<item>http://wap.mod.gov.cn/</item>
+<item>Китай entertainment network</item>
+<item>http://m.67.com/</item>
+<item>19楼</item>
+<item>http://www.19lou.com/wap</item>
+<item>Микро радио</item>
+<item>http://radio.weibo.com/</item>
+<item>Сеть друзей</item>
+<item>http://m.pengyou.com/</item>
+<item>Онлайн-перевод</item>
+<item>http://translate.google.com/m/translate</item>
+<item>Новая волна военной</item>
+<item>http://mil.sina.cn/</item>
+<item>Золото овец web</item>
+<item>http://wap.ycwb.com/</item>
+<item>Три из девяти здоровья церкви.</item>
+<item>http://wap.39yst.com/</item>
+<item>Свет сети</item>
+<item>http://3g.gmw.cn/</item>
+<item>21CN</item>
+<item>http://3g.21cn.com/</item>
+<item>Любовь Лото</item>
+<item>http://3g.iletou.com/</item>
+<item>Бобы, фрукты, продукты питания,</item>
+<item>http://m.douguo.com/</item>
+<item>Первый автомобиль сети</item>
+<item>http://3g.iautos.cn/</item>
+<item>Skynet iphone разделе.</item>
+<item>http://i.waptw.com/</item>
+<item>189邮箱</item>
+<item>http://wap.189.cn/wapmail/</item>
+<item>Мик сообщества</item>
+<item>http://bbs.xiaomi.cn</item>
+<item>Здание Банка</item>
+<item>http://m.ccb.com/</item>
+<item>Башня чтение литературы.</item>
+<item>http://wap.tadu.com/</item>
+<item>Michael Hague the Apple форум</item>
+<item>http://bbs.maiyadi.com/</item>
+<item>Весело, круто сообщества</item>
+<item>http://gd.joycool.net/</item>
+<item>Автомобиль Китай</item>
+<item>http://m.carschina.com/</item>
+<item>139邮箱</item>
+<item>http://mail.10086.cn/</item>
+<item>Омлет сети</item>
+<item>http://i.jandan.net/</item>
+<item>Если оболочка.</item>
+<item>http://m.guokr.com/</item>
+<item>Новая волна Созвездие</item>
+<item>http://ast.sina.cn/</item>
+<item>Google map</item>
+<item>http://wapmap.baidu.com/</item>
+<item>Новая волна военной</item>
+<item>http://mil.sina.cn/</item>
+<item>Google maps</item>
+<item>http://ditu.google.cn</item>
+<item>3G星座</item>
+<item>http://astro.3g.cn/</item>
+<item>Быстрый вопрос, доктор.</item>
+<item>http://m.120ask.com/</item>
+<item>.</item>
+<item>http://m.yyets.com/</item>
+<item>Обратившихся за медицинской помощью.</item>
+<item>http://wap.xywy.com/</item>
+<item>Почтовый Сберегательный</item>
+<item>http://wap.psbc.com/</item>
+<item>Телефон Китай</item>
+<item>http://wap.cnmo.com/</item>
+<item>Банк Китая</item>
+<item>http://mbs.boc.cn/</item>
+<item>Коммерческие банки</item>
+<item>https://mobile.cmbchina.com/</item>
+<item>Банк Трафика</item>
+<item>http://wap.95559.com.cn</item>
+<item>Счастливый остров.</item>
+<item>http://m.laifudao.com/</item>
+<item>Кухня</item>
+<item>http://wap.xiachufang.com/</item>
+<item>Работа общественного сети</item>
+<item>http://wap.gzhong.cn/</item>
+<item>Микро-задания</item>
+<item>http://wap.jobtone.cn/</item>
+<item>Играть сообщества</item>
+<item>http://m.yiqiwan.kuxun.cn/</item>
+<item>Чили народной сети</item>
+<item>http://wap.job5156.com/</item>
+<item>Семейный врач.</item>
+<item>http://3g.familydoctor.com.cn/</item>
+<item>Семя сети</item>
+<item>http://m.seedit.com/</item>
+<item>Еда, Джей</item>
+<item>http://wap.meishij.net/</item>
+<item>1314健康网</item>
+<item>http://m.1314jiankang.com/</item>
+<item>YOKA时尚</item>
+<item>http://3g.yoka.com/</item>
+<item>Китай excellence</item>
+<item>http://m.chinahr.com/</item>
+<item>В ладони вашей любви доктор</item>
+<item>http://m.iiyi.com/</item>
+<item>Fly депо сети</item>
+<item>http://i.feiku.com/</item>
+</string-array>
+<string-array name="sys_waiting_tips">
+<item>Нажмите на адрес в колонке микрофон, активировать голосовой поиск.</item>
+<item>Нажмите на пятерку-звездочный кнопке быстрого добавления закладок.</item>
+<item>На первой странице значок приложения могут быть добавлены на телефон настольные</item>
+<item>Общие элементы навигации могут быть добавлены на первую страницу.</item>
+<item>Меню, photo sharing, один-кнопку общий доступ к Twitter</item>
+</string-array>
+<string-array name="zeus_waiting_tips">
+<item>Нажмите на адрес в колонке микрофон, активировать голосовой поиск.</item>
+<item>Нажмите на пятерку-звездочный кнопке быстрого добавления закладок.</item>
+<item>Error</item>
+<item>Общие элементы навигации могут быть добавлены на первую страницу.</item>
+<item>Меню, photo sharing, один-кнопку общий доступ к Twitter</item>
+<item>В тексте перевода строки</item>
+<item>Текст может быть свободно скопирован, поиск</item>
+<item>Нажмите на видео для перехода в полноэкранный режим.</item>
+</string-array>
+<string-array name="reader_flip_ani_entries">
+<item>Нет</item>
+<item>Движения за мир</item>
+<item>Имитация</item>
+</string-array>
+<string-array name="reader_flip_ani_entry_value">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+</string-array>
+<string-array name="reader_screen_time_entries">
+<item>2分钟</item>
+<item>5分钟</item>
+<item>10分钟</item>
+<item>Это так ярко</item>
+</string-array>
+<string-array name="reader_screen_time_entry_value">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+<string-array name="extra_wise_apk_download_folders">
+<item>скачать</item>
+<item>downloads</item>
+<item>ucdownloads</item>
+<item>qqbrowser/скачать</item>
+<item>baidu/flyflow/downloads</item>
+<item>baidu/searchbox/downloads</item>
+<item>DolphinBrowserCN/скачать</item>
+<item>UCDLFiles</item>
+<item>QCDownload</item>
+<item>Скачать</item>
+<item>LXDOWNLOAD/СКАЧАТЬ</item>
+<item>apc/ApcBrowser/downloads</item>
+<item>MxBrowser/Downloads</item>
+<item>TTDownload/installapk</item>
+<item>QQBrowser/下载</item>
+<item>QQBrowser/安装包</item>
+<item>Приложение</item>
+<item>ThunderDownload</item>
+<item>360Browser</item>
+<item>Мой download/browser/другие</item>
+<item>Мой download/browser приложения</item>
+</string-array>
+<string-array name="bdreader_animation_setting_entries">
+<item>Нет</item>
+<item>Движения за мир</item>
+<item>Имитация</item>
+</string-array>
+<string-array name="bdreader_animation_setting_entry_values">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+</string-array>
+<string-array name="bdreader_screen_timeout_entries">
+<item>2分钟</item>
+<item>5分钟</item>
+<item>10分钟</item>
+<item>Это так ярко</item>
+</string-array>
+<string-array name="bdreader_screen_timeout_entry_values">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+<string-array name="bookmarks_title">
+<item>Википедия</item>
+<item>Новая волна</item>
+<item>Web easy</item>
+<item>Новый твит</item>
+<item>Facebook</item>
+<item>Facebook</item>
+</string-array>
+<string-array name="bookmarks_url">
+<item>http://google.ru</item>
+<item>http://yandex.ru</item>
+<item>http://mail.ru</item>
+<item>http://4pda.ru</item>
+<item>http://nytime.com</item>
+<item>http://youtube.com</item>
+</string-array>
+<string-array name="favicon_host_list">
+
+<item>mtime.co</item>
+</string-array>
+<string-array name="history_name">
+<item>Википедия</item>
+<item>Новая волна</item>
+<item>Феникс</item>
+<item>hao123</item>
+<item>Поиск Лиса.</item>
+<item>EBay</item>
+</string-array>
+<string-array name="history_url">
+<item>http://google.ru</item>
+<item>http://yandex.ru</item>
+<item>http://mail.ru</item>
+<item>http://4pda.ru</item>
+<item>http://nytime.com</item>
+<item>http://youtube.com</item>
+</string-array>
+</resources>

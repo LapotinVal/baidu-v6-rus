@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="netemplate">
+        <item>2G/3G</item>
+        <item>Wi-Fi</item>
+    </string-array>
+    <string-array name="traffic_province_entries">
+        <item>Пекин</item>
+        <item>Шанхай</item>
+        <item>Тяньцзинь</item>
+        <item>Чунцин</item>
+        <item>Аньхой</item>
+        <item>Фуцзянь</item>
+        <item>Ганьсу</item>
+        <item>Гуандун</item>
+        <item>Гуанси</item>
+        <item>Гуйчжоу</item>
+        <item>Хайнань</item>
+        <item>Хэбэй</item>
+        <item>Хэнань</item>
+        <item>Хэйлунцзян</item>
+        <item>Хубэй</item>
+        <item>Хунань</item>
+        <item>Цзилинь</item>
+        <item>Цзянсу</item>
+        <item>Цзянси</item>
+        <item>Ляонин</item>
+        <item>Нэймэнгу</item>
+        <item>Нинся</item>
+        <item>Цинхай</item>
+        <item>Шаньдун</item>
+        <item>Шаньси</item>
+        <item>Шэньси</item>
+        <item>Сычуань</item>
+        <item>Сицзан</item>
+        <item>Синьцзян</item>
+        <item>Юньнань</item>
+        <item>Чжэцзян</item>
+    </string-array>
+    <string-array name="traffic_province_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="traffic_operator_entries">
+        <item>China Mobile</item>
+        <item>China Unicom</item>
+        <item>China Telecom</item>
+    </string-array>
+    <string-array name="traffic_operator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="traffic_mobile_entries">
+        <item>GoTone</item>
+        <item>M-Zone</item>
+        <item>Easyown</item>
+    </string-array>
+    <string-array name="traffic_mobile_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="traffic_unicom_entries">
+        <item>Unicom 2G</item>
+        <item>Unicom 3G</item>
+    </string-array>
+    <string-array name="traffic_unicom_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="traffic_telecom_entries">
+        <item>E surfing</item>
+    </string-array>
+    <string-array name="traffic_telecom_values">
+        <item>0</item>
+    </string-array>
+    <string-array name="traffic_adjust_entries">
+        <item>Ежедневно</item>
+        <item>Каждые 3 дня</item>
+        <item>Еженедельно</item>
+        <item>Закрыть</item>
+    </string-array>
+    <string-array name="compress_level">
+        <item>высокий</item>
+        <item>средний</item>
+        <item>низкий</item>
+    </string-array>
+    <string-array name="traffic_alert_entries">
+        <item>Ничего не делать</item>
+        <item>Предупредить</item>
+        <item>Отключить передачу данных</item>
+    </string-array>
+    <string-array name="traffic_alert_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="flow_compress_question">
+        <item>1. Что такое сжатие трафика?</item>
+        <item>2. Как использовать сжатие трафика?</item>
+        <item>3. Сжатие трафика работает при использовании Wi-Fi?</item>
+        <item>4. Как настроить сжатие трафика?</item>
+        <item>5. Есть ли проблемы с использованием сжатия трафика?</item>
+    </string-array>
+    <string-array name="flow_compress_answer">
+        <item>"При включении функции сжатия, весь трафик начинает проходить через сервер Baidu, где происходит сжатие и оптимизация изображений. Это позволяет достичь существенного снижения потребляемого трафика.
+"</item>
+        <item>"Вам всего лишь нужно включить эту функцию).
+"</item>
+        <item>"Нет, эта функция работает только при использовании мобильной передачи данных.
+"</item>
+        <item>"Поскольку функция сжатия уменьшает качество изображений, есть возможность настроить степень сжатия для повышения качества изображений или, наоборот, уменьшения количества используемого трафика.
+"</item>
+        <item>Кроме того, что сжатие уменьшает качество изображений, некоторые приложения могут быть несовместимы с WAP-сетью. Поэтому вы можете сами выбрать приложения, для которых будет использоваться сжатие трафика.</item>
+    </string-array>
+</resources>
